@@ -1,0 +1,58 @@
+.header{
+  position:absolute;  
+  margin-top: 12px;
+  margin-right: 12px;
+  margin-left: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  width: 97%;
+}
+.buttons_container{
+  margin-left: 60px;
+  margin-right: 60px;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.page_link{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 24px;
+  padding-right: 24px;
+  border-radius: 4px;
+  font-size: 16px;
+  color: white;
+  transition: 
+  background-color 0.15s,
+  color 0.15s;
+}
+.page_link:hover,.page_link.active{
+  color:#0c0c0c;
+  background-color: white;
+}
+.quote_button, .view_more, .sub_button{
+  display: block;
+  position: relative;
+  font-size: 16px;
+  padding: 6px 26px;
+  background-color: #f8842b;
+  border-radius: 4px;
+  color: white;
+  transition: transform 0.2s;
+}
+.quote_button:hover, .view_more:hover, .sub_button:hover{
+  transform: translateY(-5px);
+}
+
+.home_button{
+  font-weight:900;
+  font-size: 24px;
+  color: white;
+}
